@@ -1,0 +1,92 @@
+
+.container {
+    width:1200px;
+    margin: 0 auto;
+  }
+  .MuiContainer-root h1 {
+    position: static;
+  }
+.uim-header {
+    display: flex;
+    align-items: center;
+}
+  
+.uim-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+  
+.uim-header li {
+    margin-right: 10px;
+}
+  
+.uim-header img {
+    width: 80px;
+    height: auto;
+}
+.uim-title {
+    font-size:40px;
+}
+.uppercase {
+    text-transform:uppercase;
+}
+.borderraduis {
+    border-radius:5px;
+}
+.flex {display:flex;}
+.width80 {    width:80px; }
+.margin5 {margin:5px;}
+
+.table-container {
+    display: table;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table-header {
+    display: table-row;
+    background-color: #4CAF50; /* Зеленый цвет по умолчанию */
+}
+
+.table-header .table-cell {
+    display: table-cell;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.table-header .table-cell:last-child {
+    border-right: none;
+}
+
+.friendly-header {
+    background-color: #4CAF50; /* Зеленый */
+}
+
+.enemy-header {
+    background-color: #FF4C4C; /* Красный */
+}
+
+.table-body {
+    display: table-row-group;
+}
+
+.table-body .table-cell {
+    display: table-cell;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.table-body .table-cell:last-child {
+    border-right: none;
+}
+.padding10 {padding: 10px 0;}
+.padding5 {padding: 0 5px;}
